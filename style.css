@@ -545,6 +545,10 @@ body {
 }
 
 @media (max-width: 540px) {
+  .img-quiz-page {
+    width: 400px;
+    height: 350px;
+  }
   .sharetext {
     font-size: small !important;
   }

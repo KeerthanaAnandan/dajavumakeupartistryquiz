@@ -4,10 +4,10 @@ let questions = [
     question: "Do you like your lashes to...",
 
     options: [
-      "Look Natural",
-      "Give you fierce a cat eye look",
-      "Be full of volume, I love glamorous",
-      "Brighten and open your eyes beautifully",
+      "Look Natural.",
+      "Give you fierce a cat eye look!",
+      'Be full of volume, "I love glamorous".',
+      "Brighten and open your eyes beautifully.",
     ],
   },
   {
@@ -15,10 +15,10 @@ let questions = [
     question: "How often do you wear lashes?",
 
     options: [
-      "Everyday girl",
-      "Only on special occasions",
-      "Not much at all, I'm new here",
-      "Date nights, I love to dress up",
+      '"Everyday girl"!',
+      "Only on special occasions.",
+      "Not much at all, I'm new here.",
+      'Date nights, "I love to dress up"!',
     ],
   },
   {
@@ -26,15 +26,15 @@ let questions = [
     question: "What is your expeience with lashes?",
 
     options: [
-      "I speak lashes fluently",
-      "I do okay, could use some help",
+      "I speak lashes fluently.",
+      "I do okay, I could use some help",
       "I can never put them on myself",
       "Ive never even tried, help me!",
     ],
   },
   {
     id: 3,
-    question: "What's your eye shape?",
+    question: "What is your eye shape?",
 
     options: [
       "Almond",
@@ -275,7 +275,7 @@ function show(count) {
     `;
   } else {
     let [first, second, third, fourth] = questions[count].options;
-    quizImage.innerHTML = `  <img src="./Assets/${questions[count].id}.jpg" alt="" height="350" width="500" />`;
+    quizImage.innerHTML = `  <img src="./Assets/${questions[count].id}.jpg" class="img-quiz-page" alt="" height="350" width="400" />`;
     ///////no of questions
 
     question.innerHTML = `
